@@ -1,0 +1,34 @@
+{
+  "name": "appointment-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap": "^4.3.0",
+    "classnames": "^2.2.6",
+    "gatsby-source-tmdb": "^1.0.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1",
+    "jquery.easing": "^1.4.1",
+    "jqueryui": "^1.11.1",
+    "jwt-decode": "^2.2.0",
+    "material-ui": "^0.20.2",
+    "moment": "^2.24.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "startbootstrap-creative": "^5.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8081"
+}
