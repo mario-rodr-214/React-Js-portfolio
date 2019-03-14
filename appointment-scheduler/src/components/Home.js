@@ -4,7 +4,7 @@ import img2 from "../img/portfolio/Austin2.jpg";
 import pic from "../img/portfolio/1-pic.jpg";
 
 const MyCarousel = () => (
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide bg-1" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active" />
       <li data-target="#myCarousel" data-slide-to="1" />
@@ -22,7 +22,7 @@ const MyCarousel = () => (
         <img src={img2} alt="Austin" width="1200" height="700" />
         <div class="carousel-caption">
           <h3>Austin</h3>
-          <p>Thank you, Austin - Nights we won't forget.</p>
+          <p>Thank you, Austin for the Opportunity.</p>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ const MyCarousel = () => (
 );
 
 const ContactForm = () => (
-  <div class="container">
+  <div class="container bg-1">
     <h3 class="text-center">Contact</h3>
     <div class="row">
       <div class="col-md-4">
@@ -132,7 +132,7 @@ export default class Home extends Component {
               <div id="demo" class="collapse">
                 <p>Guitarist and Lead Vocalist</p>
                 <p>Loves long walks on the beach</p>
-                <p>Member since 1988</p>
+                <p>Member since 1993</p>
               </div>
             </div>
             <div class="col-sm-4">
